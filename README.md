@@ -25,7 +25,7 @@ Next, we build the structures of chain B, C, D, E, F Sequentially, and merge the
 
 ### step 2: prepare the protein structure with schrodinger, including predicting the number of protons on specific atoms and energy-minimizing the whole structure.
 
-Load 3_merge.pdb to schrodinger software and prepared it with Protein preparation wizard. After preparation, the file 4_merge_prepared.pdb was generated.
+Load 3_merge.pdb into schrodinger software and prepare it with Protein preparation wizard. After preparation, the file 4_merge_prepared.pdb was generated.
 
 ### step 3: upload the coordinate file to CHARMM-GUI and generate the input files of simulations.
 
