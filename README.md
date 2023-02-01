@@ -10,3 +10,5 @@ Details of molecular dynamics simulations in article "Cryo-EM structure of human
 * **CGenFF Tool**: https://cgenff.umaryland.edu/
 
 ## Tutorial
+* step 0：prepare the sequence file and coordinate file of protein. 
+* step 1: building the missing loop (amino acids 185-187, 267-272, and 374-376) via the prime （a module in schrodinger software).
