@@ -47,7 +47,9 @@ Up to this step, the preparations of MD simulation were finished. The topology f
 
 ### step5: simulation
 
-The system was shown in:
+The coordinate files before and after MD simulation are 6_before_MD.pdb and 6_after_MD.pdb.
+
+The system was also shown here:
 ![image](https://github.com/shiyu-wangbyte/panx2-simulation/blob/main/media/system_picture.png)
 
 ### step6: steered MD
