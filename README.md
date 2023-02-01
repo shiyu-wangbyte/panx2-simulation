@@ -56,6 +56,8 @@ The system was also shown here:
 
 In steered MD, the distance between the mass center of six alpha carbon atom of 34PHE and the mass center of heavy atoms of ATP molecule was defined as co-variable which was restricted from -4 to 3 within 5000000 steps.
 
+The parameter file of steered MD follows:
+
 ```
 c1: COM ATOMS=567,6250,11933,17616,23299,28982,34665
 c2: COM ATOMS=39825-39832
