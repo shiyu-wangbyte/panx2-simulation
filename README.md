@@ -71,8 +71,9 @@ restraint: ...
         AT2=3   STEP2=4700000   KAPPA2=1000
         AT3=3   STEP3=10000000   KAPPA3=0
 ...
-```
+
 PRINT ARG=d1.z,d2.z FILE=plumed_COLVER STRIDE=200
+```
 
 
 The diffusion process is shown here (click the video and download the mp4 file):
