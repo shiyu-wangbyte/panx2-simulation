@@ -47,6 +47,7 @@ Up to this step, the preparations of MD simulation were finished. The topology f
 
 ### step5: simulation
 
-
+The system was shown in:
+![image](https://github.com/shiyu-wangbyte/panx2-simulation/blob/main/media/system_picture.png)
 
 ### step6: steered MD
