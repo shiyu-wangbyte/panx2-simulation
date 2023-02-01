@@ -39,5 +39,10 @@ Delete the hydrogen atoms in 4_merge_prepared.pdb and save other atoms in 5_merg
 * parameterize the molecules with CHARMM36m force field in this step;
 * download the input files of simulation. 
 
-### step4 prepare the topology file of ATP molecule via amber tools:
+### step4: prepare the topology file of ATP molecule via amber tools:
 
+place four ATP molecules in our coordinate files, and parameterize ATP with AmberTools (antechamber molecule and amb2gro_top_gro.py script).
+
+Up to this step, the preparations of MD simulation were finished. The topology files were saved in folder "" and the parameter files of each steps were saved in folder "".
+
+### step5: 
