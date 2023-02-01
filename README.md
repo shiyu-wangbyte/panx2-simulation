@@ -54,4 +54,6 @@ The system was also shown here:
 
 ### step6: steered MD
 
+The diffusion process is shown here (click the video and download the mp4 file):
+
 [![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://github.com/shiyu-wangbyte/panx2-simulation/blob/main/media/ATP_transfer_panx2.mp4)
