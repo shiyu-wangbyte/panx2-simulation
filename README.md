@@ -55,3 +55,4 @@ The system was also shown here:
 ### step6: steered MD
 
 ![Watch the video]（https://github.com/shiyu-wangbyte/panx2-simulation/blob/main/media/ATP_transfer_panx2.mp4）
+[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://github.com/shiyu-wangbyte/panx2-simulation/blob/main/media/ATP_transfer_panx2.mp4)
