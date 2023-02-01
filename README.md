@@ -45,4 +45,8 @@ place four ATP molecules in our coordinate files, and parameterize ATP with Ambe
 
 Up to this step, the preparations of MD simulation were finished. The topology files were saved in "toppar.zip" and the parameter files of each steps were saved in folder "toppar.zip". For repeating our work, please unzip these two files.
 
-### step5: 
+### step5: simulation
+
+
+
+### step6: steered MD
