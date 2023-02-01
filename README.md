@@ -11,7 +11,8 @@ Details of molecular dynamics simulations in article "Cryo-EM structure of human
 
 ## Tutorial
 ### step 0: download the sequence file and coordinate file of protein. 
-0_experimental_structure.pdb is the ecperimental coordinate file of panx2 protein
+0_experimental_structure.pdb is the ecperimental coordinate file of panx2 protein;
+1_chain_A.pdb is the ecperimental coordinate file of chain A;
 
 ### step 1: build the missing loop (amino acids 185-187, 267-272, and 374-376) via the prime （a module in schrodinger software).
 ### step 2: prepare the protein structure with schrodinger, including predicting the number of protons on specific atoms and energy-minimizing the whole structure.
