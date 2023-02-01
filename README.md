@@ -43,7 +43,7 @@ Delete the hydrogen atoms in 4_merge_prepared.pdb and save other atoms in 5_merg
 
 place four ATP molecules in our coordinate files, and parameterize ATP with AmberTools (antechamber molecule and amb2gro_top_gro.py script).
 
-Up to this step, the preparations of MD simulation were finished. The topology files were saved in "toppar.zip". For repeating our work, please unzip these two files.
+Up to this step, the preparations of MD simulation were finished. The topology files were saved in "toppar.zip" and "topol.top". For repeating our work, please unzip "toppar.zip".
 
 ### step5: simulation
 
