@@ -47,6 +47,8 @@ Up to this step, the preparations of MD simulation were finished. The topology f
 
 ### step5: simulation
 
+The MD simulation consisted of energy minimization, pre-equilibration and production simulations. The system was first energy minimized with the steepest descent algorithm while keeping 4000 KJ/(mol*nm2) force constant on backbone atoms and ligand atoms, 2000 KJ/(mol*nm2) force constant on side-chain atoms and 1000 KJ/(mol*nm2) force restraint on lipid atoms. Then, six-step pre-equilibration simulations (0.6 ns, 0.6 ns, 1 ns, 1 ns, 1 ns, and 1 ns) were carried out, where restraint was reduced slowly (4000, 2000, 1000, 500, 300, 0 KJ/(mol*nm2) on the backbone and ligand atoms, 2000, 1000, 500, 200, 50, 0 KJ/(mol*nm2) on side-chain atoms, and 1000, 400, 400, 200, 40, 0 KJ/(mol*nm2) on lipid atoms) to relax the system. Finally, a production simulation was performed for 100 ns using Langevin thermostat, with a constant temperature of 310 K and a constant pressure of 1 atm.
+
 The coordinate files before and after MD simulation are 6_before_MD.pdb and 6_after_MD.pdb.
 
 The system was also shown here:
