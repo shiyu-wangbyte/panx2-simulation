@@ -21,7 +21,7 @@ Details of molecular dynamics simulations in article "Cryo-EM structure of human
 
 We build missing loops via the homology modeling function of prime. The input files of this step are  1_chain_A.pdb and 1_AA_sequence.fasta. The output file of this step is 2_A_prime_modelled.pdb. Please make sure that the amino acids solved by wet experiment are not be modelled in this step.
 
-Next, we build the structures of chain B, C, D, E, F Sequentially, and merge them to 3_merge.pdb.
+Next, we build the structures of chain B, C, D, E, F sequentially, and merge them to 3_merge.pdb.
 
 ### step 2: prepare the protein structure with schrodinger, including predicting the number of protons on specific atoms and energy-minimizing the whole structure.
 
