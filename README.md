@@ -51,5 +51,5 @@ The MD simulation consisted of energy minimization, pre-equilibration and produc
 
 The coordinate files before and after MD simulation are 6_before_MD.pdb and 6_after_MD.pdb.
 
-The system was also shown here:
+The system is also shown here:
 ![image](https://github.com/shiyu-wangbyte/panx2-simulation/blob/main/media/system_picture.png)
