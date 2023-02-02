@@ -53,33 +53,3 @@ The coordinate files before and after MD simulation are 6_before_MD.pdb and 6_af
 
 The system was also shown here:
 ![image](https://github.com/shiyu-wangbyte/panx2-simulation/blob/main/media/system_picture.png)
-
-### step6: steered MD
-
-In steered MD, the distance between the mass center of six alpha carbon atom of 74PHE and the mass center of heavy atoms of ATP molecule was defined as co-variable which was restricted from -4 to 3 within 5000000 steps.
-
-The parameter file of steered MD follows:
-
-```
-c1: COM ATOMS=567,6250,11933,17616,23299,28982,34665
-c2: COM ATOMS=39825-39832
-
-d1: DISTANCE ATOMS=c1,c2 COMPONENTS
-d2: DISTANCE ATOMS=c2,805 COMPONENTS
-
-restraint: ...
-        MOVINGRESTRAINT
-        ARG=d1.z
-        AT0=-4  STEP0=0         KAPPA0=0
-        AT1=-4  STEP1=200000    KAPPA1=1000
-        AT2=3   STEP2=4700000   KAPPA2=1000
-        AT3=3   STEP3=5000000   KAPPA3=0
-...
-
-PRINT ARG=d1.z,d2.z FILE=plumed_COLVER STRIDE=200
-```
-
-
-The diffusion process is shown here (click the video and download the mp4 file):
-
-[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://github.com/shiyu-wangbyte/panx2-simulation/blob/main/media/ATP_transfer_panx2.mp4)
